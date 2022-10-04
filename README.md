@@ -1,7 +1,7 @@
 # PROFILE CARD COMPONENT
 
-#### By _**{Gigi Diasamidze}**_
-#### _{A simple Profile Card Component | Mobile and Desktop Version | BitCamp Task 4}_
+#### By _**Gigi Diasamidze**_
+#### _A simple Profile Card Component | Mobile and Desktop Version | BitCamp Task 4_
 
 ## Technologies Used
 * _HTML_
