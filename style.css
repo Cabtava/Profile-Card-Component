@@ -1,0 +1,156 @@
+/* ============= Import Fonts From Google ============= */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* ============= Generals ============= */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #19A1AE;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* ============= Elements / Background ============= */
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    width: 622px;
+    height: 621px;
+    position: absolute;
+}
+
+/* - Background | top - */
+.background-top {
+    left: -15rem;
+    top: -20rem;
+    transform: rotate(160deg);
+}
+
+/* - Background | bottom - */
+.background-bottom {
+    bottom: -20rem;
+    right: -15rem;
+    transform: rotate(-10deg);
+}
+
+/* ============= Elements / Card Content ============= */
+.card-content {
+    width: 326px;
+    height: 374px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow: hidden;
+    background-color: #ffffff;
+
+    z-index: 999;
+}
+
+/* - Card | Background - */
+.card-background {
+    width: 100%;
+    height: 140px;
+}
+
+.card-background img {
+    width: 100%;
+}
+
+/* - Card | Profile - */
+.card-profile-image img {
+    margin-top: -3rem;
+    width: 96px;
+    height: 96px;
+
+    border: 5px solid #ffffff;
+    border-radius: 100%;
+}
+
+/* - Card | Name, Age, Location - */
+.card-name-location {
+    text-align: center;
+}
+
+.card-name-location p {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2E3349;
+    margin-bottom: .6rem;
+}
+
+.card-name-location span {
+    font-weight: 400;
+    color: #6B7082;
+}
+
+.card-name-location c-l {
+    font-size: 14px;
+} 
+
+/* - Card | Bottom Content - */
+.card-bottom-content {
+    border-top: 1px solid #E8E9EC;
+
+    width: 100%;
+    margin: 1rem 0rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-bottom-content div {
+    text-align: center;
+}
+
+.card-bottom-content div p {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2E3349;
+    margin-bottom: .4rem;
+}
+
+.card-bottom-content div span {
+    color: #6B7082;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* ================= Media Queries | For Desktop Version ================= */
+@media only screen and (min-width: 700px) {
+    /* ============= Elements / Card Content ============= */
+    .card-content {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    /* ============= Elements / Background ============= */
+    .background {
+        width: 978px;
+        height: 976px;
+        transform: rotate(0deg);
+        opacity: .45;
+    }
+
+    .background-top {
+        left: -5rem;
+    }
+
+    .background-bottom {
+        right: -6rem;
+        bottom: -27rem;
+    }
+}
